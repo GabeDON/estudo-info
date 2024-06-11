@@ -1,0 +1,5 @@
+11/06 
+Analise de Dados
+> criação de enviroment
+> adição de git
+> Capítulo 3

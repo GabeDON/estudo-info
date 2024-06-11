@@ -1,0 +1,10 @@
+Metodos £teis para a classe Arrays: 
+- Arrays.fill(<array>,<componente>); 
+  Utilizado para preencher array com os componentes necess†rios
+  * n∆o necessita a utilizacao de um laco for-each
+- Arrays.toString(<array>);
+  Retorna uma String com os componentes da array.
+- Arrays.equals(<array1>,<array2>);
+  Compara o tamanho e componentes de duas arrays.	
+- Arrays.sort(<array>); 
+  Utiliza o metodo QuickSort para ordenar a array.

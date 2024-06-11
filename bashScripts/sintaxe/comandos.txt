@@ -1,0 +1,54 @@
+1. Verificação de Disco:
+   chkdsk /f
+
+2. Verificação de Integridade do Sistema:
+   sfc /scannow
+
+3. Ferramenta de Diagnóstico de Memória:
+   mdsched
+
+4. Desfragmentação de Disco:
+   defrag C: /O
+
+5. Atualização de Drivers:
+   Get-Device | Update-Device
+
+6. Limpeza de Disco:
+   cleanmgr
+
+7. Monitoramento de Recursos (Task Manager):
+   Ctrl + Shift + Esc
+
+8. Verificação de Conexões de Rede:
+   ipconfig /all
+
+9. Backup de Dados (Robocopy para cópia de arquivos):
+   robocopy Origem Destino /E /ZB /COPYALL
+
+10. Windows Update (PowerShell):
+    Get-WindowsUpdate -Install -AcceptAll
+
+11. Verificação de Logs de Eventos (PowerShell):
+    Get-EventLog -LogName System -Newest 50
+
+12. Verificação de Serviços em Execução (PowerShell):
+    Get-Service
+
+13. Configuração de Políticas de Grupo (gpupdate):
+    gpupdate /force
+
+14. Gerenciamento de Discos (Diskpart):
+    diskpart
+
+15. Verificação de Conexões de Rede Detalhadas:
+    netstat -ano
+
+16. Recuperação de Arquivos Corrompidos (Dism):
+    dism /online /cleanup-image /restorehealth
+
+17. Reparo do Registro do Windows (sfc):
+    sfc /scannow
+
+18. Desativar/Ativar Reinicialização Automática após Falha do Sistema (Registro do Windows):
+    reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl" /v AutoReboot /t REG_DWORD /d 0 /f
+    (Substitua "0" por "1" para ativar novamente)

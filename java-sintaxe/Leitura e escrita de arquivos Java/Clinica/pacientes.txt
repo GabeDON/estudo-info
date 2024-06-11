@@ -1,0 +1,3 @@
+paciente nº1
+Paciente{nome='Gabriel', cpf='11111', Doenca='Dor de Cabeça'}
+

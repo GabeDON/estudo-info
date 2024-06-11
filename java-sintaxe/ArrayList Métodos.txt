@@ -1,0 +1,25 @@
+Adicionar Elementos:
+
+add(E elemento): Adiciona um elemento ao final da lista.
+Acessar Elementos:
+
+get(int índice): Retorna o elemento no índice especificado da lista.
+Remover Elementos:
+
+remove(int índice): Remove o elemento no índice especificado da lista.
+Obter Informações da Lista:
+
+size(): Retorna o número de elementos na lista.
+isEmpty(): Retorna true se a lista estiver vazia.
+Limpar a Lista:
+
+clear(): Remove todos os elementos da lista.
+Verificar a Presença de Elementos:
+
+contains(Object objeto): Retorna true se a lista contiver o objeto especificado.
+Encontrar o Índice de um Elemento:
+
+indexOf(Object objeto): Retorna o índice da primeira ocorrência do objeto especificado na lista.
+Substituir Elementos:
+
+set(int índice, E elemento): Substitui o elemento no índice especificado com o novo elemento especificado

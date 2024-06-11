@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# testar se usuario passou o numero certo de argumentos
+[[ $# -ne 1 ]] && echo "error, apenas *um* nome" && exit 1
+
+# testar se usuario passou mais de um argumento
+
+# testar se usuario passou o nome do novo script
+
+echo '#!/usr/bin/env bash' > $1
+chmod +x $1
+nano $1
+

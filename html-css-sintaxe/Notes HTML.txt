@@ -1,0 +1,41 @@
+Notes HTML:
+HiperTexto: links que conectam páginas
+- HTML trabalha com tags - elemento HTML
+ex: <title> <\title>
+
+- Espaços extras são excluídos
+
+CSS : Cascading syle sheets
+> muda a aparência de elementos HTML
+CSS Selector > wich elements we're targeting
+- border-radius: para criar botões redondos basta ajustar para metade 
+da largura ou altura
+
+- código para configurar oque acontecer quando o mouse passar por cima do botão
+<nomeDoElemento>:hover{
+	<código>
+}
+- hover é uma pseudoClass: adiciona novos atributos de acordo com as situações
+CSS Box models : ajuda a colocar espaço dentro (padding) e fora (margin) de nossos elementos
+* how much space an element takes up
+* using padding is a better alternative to weight and height
+
+> vertical-align: alinha os elementos com indicado
+> by default <p> has margin top and bottom
+
+- CSS Specificy: prioridade do browser de selecionar estilos CSS mais especificos de cada elemento 
+class name selector > element name selector
+
+<html> = web page
+<body> = cotains all elements that are visible
+void elements = dont need a closing tag
+
+display property
+1. block element: takes up the entire line in their container <p>, <div>
+2. inline-block element: only takes up as much space as needed
+3. appear within a line of text
+
+<div> = division or a box
+
+Flexbox = flexible layout
+Grid = rigid layout
